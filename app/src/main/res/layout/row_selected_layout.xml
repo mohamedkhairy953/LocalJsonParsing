@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="serviceModel"
+            type="com.example.moham.localjsonparsing.pojo.ServiceModel" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <TextView
+            android:id="@+id/servicename_text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@{serviceModel.service_name}" />
+
+        <TextView
+            android:id="@+id/from_text"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+
+            android:text="@{serviceModel.from}" />
+
+        <TextView
+            android:id="@+id/to_text"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:text="@{serviceModel.to}" />
+    </LinearLayout>
+</layout>

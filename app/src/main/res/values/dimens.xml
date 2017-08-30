@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="from_column">250dp</dimen>
+    <dimen name="margin_to_from">30dp</dimen>
+    <dimen name="to_column">50dp</dimen>
+</resources>

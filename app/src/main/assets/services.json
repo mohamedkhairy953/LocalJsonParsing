@@ -1,0 +1,37 @@
+[
+  {
+    "service_name": "plumbing",
+    "from": 100,
+    "to": 130
+  },
+  {
+    "service_name": "carpentary",
+    "from": 110,
+    "to": 140
+  },
+  {
+    "service_name": "cleaning",
+    "from": 90,
+    "to": 120
+  },
+  {
+    "service_name": "aluminuim",
+    "from": 140,
+    "to": 180
+  },
+  {
+    "service_name": "furniture cleaning",
+    "from": 800,
+    "to": 900
+  },
+  {
+    "service_name": "moving",
+    "from": 200,
+    "to": 230
+  },
+  {
+    "service_name": "painting",
+    "from": 180,
+    "to": 230
+  }
+]
